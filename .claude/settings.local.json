@@ -15,7 +15,11 @@
       "Bash(python3 -c ' *)",
       "Bash(node -e ' *)",
       "mcp__ide__getDiagnostics",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(pkill -f \"tsx watch src/index.ts\")",
+      "Bash(python -m json.tool)",
+      "Bash(python *)"
     ]
   }
 }
