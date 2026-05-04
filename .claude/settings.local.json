@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npx prisma *)",
+      "Bash(npm run *)",
+      "Bash(xxd \"E:/search/yupi-hot-monitor-master/server/.env\")",
+      "Bash(curl -s -X POST http://localhost:3001/api/check-hotspots)",
+      "Bash(lsof -ti:3001)",
+      "Bash(xargs kill *)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill *)",
+      "WebSearch",
+      "Bash(curl *)",
+      "Bash(python3 -c ' *)",
+      "Bash(node -e ' *)",
+      "mcp__ide__getDiagnostics",
+      "Bash(git add *)"
+    ]
+  }
+}
